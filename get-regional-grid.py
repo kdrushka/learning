@@ -1,11 +1,13 @@
 import glob
 import re
 
-# directories
+# directories - shredder:
 datadir='/data1/adac/'
 llc4320dir=datadir + 'mitgcm/regions/'
 processdir=datadir + 'process/'
-
+# for NAS:
+#llc4320dir=/nobackupp2/dmenemen/llc_4320/regions/
+#processdir='~/process/'
 
 # open a new file
 f = open(processdir + 'llc4320_regional_grids.txt', 'w')
